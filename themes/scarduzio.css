@@ -1,5 +1,5 @@
-body { color: #555; font-size: 19px; line-height: 1.5em}
-h1, h2, h3, h4, .date, footer { color: #F33; display: inline; font-family:Georgia, Times, serif; font-weight:500; margin:0; }
+body { color: #555; font-size: 19px; line-height: 1.5em; font-family: "Source Sans Pro", "Helvetica Neue",sans-serif;}
+h1, h2, h3, h4, footer { color: #999; display: inline; font-family:Georgia, Times, serif; font-weight:500; margin:0; }
 ul, li, ol { margin-left: 0.66em; padding:0; }
 header, footer, section, article { display:block; }
 #stripe {width:100%; background-image: url('colors.jpg'); height: 40px; }
@@ -13,8 +13,8 @@ header, footer, section, article { display:block; }
 article { padding-bottom: 1.5em; padding-right: 0.8em; }
 
 #caption { font-size: 24px; margin: -135px 0 0 70px; position: absolute; }
-.date { float: right; font-style: italic; font-variant: small-caps; margin-right: -180px; margin-top: 2em; }
+.date {display:block; font-size: 16px; font-style: italic; font-variant: small-caps; text-align:right; margin-bottom: 20px;}
 a { color: #6FBE44; text-decoration: none; }
 h1, h1 a { color: #222; font-size: 1.4em; text-decoration: none; }
-h1 { display: block; line-height: 140px; margin-bottom: 20px; padding-top: 30px; }
+h1 { display: block; line-height: 140px; padding-top: 30px; }
 blockquote p { border-left: 2px solid gray; font-style: italic; padding: 1em; }
